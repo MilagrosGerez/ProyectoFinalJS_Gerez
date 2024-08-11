@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content=" initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--header y navbar-->
+    <header>
+        <h1>Nuevas modas</h1>
+        <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">0</span></button>
+
+    </header>
+    <!--main-->
+    <main id="producto-contenedor">
+
+    </main>
+  
+    <div class="modal-contenedor">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+        <button id="finalizar-compra" class="btn waves-effect waves-light finaliza">Finalizar Compra</button>
+
+        <div id="carrito-contenedor">
+  
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+       
+      </div>
+    </div>
+  
+    <!--footer-->
+    <footer>
+        <p>Derechos reservados.</p>
+    </footer>
+    <script src="./data/stock.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+</body>
+</html>
