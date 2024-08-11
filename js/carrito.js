@@ -92,7 +92,6 @@ const finalizarCompra = () => {
     confirmButtonText: "Terminar",
     denyButtonText: `Borrar`
   }).then((result) => {
-    /* Read more about isConfirmed, isDenied below */
     if (result.isConfirmed) {
       Swal.fire("Tu compra ha sido exitosa!", "", "success");
     } else if (result.isDenied) {

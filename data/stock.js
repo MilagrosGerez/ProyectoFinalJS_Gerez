@@ -6,7 +6,7 @@ const producto = [
         cantidad: 6,
         talle: "único",
         imagen: '../Images/cardigan.jpg.jpg',
-        cantidad: 1,
+     
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const producto = [
         cantidad: 2,
         talle: "M",
         imagen: '../Images/campera.jpg.jpg',
-        cantidad: 1,
+      
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const producto = [
         cantidad: 6,
         talle: "XL",
         imagen: '../Images/sweater.jpg.jpg',
-        cantidad: 1,
+       
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const producto = [
         cantidad: 30,
         talle: 42,
         imagen: '../Images/zapas.jpg.jpg',
-        cantidad: 1,
+        
     }
 ];
 console.log (producto);
